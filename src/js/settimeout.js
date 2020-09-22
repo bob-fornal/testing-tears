@@ -5,7 +5,7 @@ const code = {
 
 code.variable = false;
 
-/* done */
+/* done and clock */
 code.testable_1 = () => {
   setTimeout(function() {
     code.variable = true;
@@ -21,7 +21,7 @@ code.testable_2 = () => {
   setTimeout(changeVariable, 10);
 };
 
-/* async / await */
+/* Async / Await */
 code.sleep = (time) => {
   return new Promise(resolve => setTimeout(resolve, time));
 };
