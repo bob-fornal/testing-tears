@@ -21,4 +21,4 @@ This presentation is for testing JavaScript's Asynchronous Activity.
     - [ ] "Test-Result Display" tab
     - [ ] "Code View" tab
 
-See article on details for this presentation.
+See article on details for this presentation: [Unit Testing JavaScript's Asynchronous Activity](https://dev.to/rfornal/unit-testing-asynchronous-javascript-3foj-temp-slug-4303763?preview=b89d5dfc5daa71e2fe04051b1416b4561c2008dc168e6b75a48e2f28397fd2b6166f25b02cab48e1b85d75745342c2cd9958ea8efb4c500c857c7997)
