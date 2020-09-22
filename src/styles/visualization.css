@@ -46,6 +46,14 @@ pre code {
   font-size: 1.2em;
 }
 
+.list {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+}
+.list .not-set {
+  color: white;
+}
+
 .title, .menu {
   flex: 1 1 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
