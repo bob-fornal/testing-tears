@@ -14,7 +14,7 @@ This presentation is for testing JavaScript's Asynchronous Activity.
     - [ ] ES2015 Promise Code
     - [ ] Event Listener Code
     - [ ] Web Worker Code
-    - [x] ES2017 Async / Await Code
+    - [x] **PARTIAL**: ES2017 Async / Await Code
 
 - [ ] Build a presenter similar to what the original Async Talk does:
 
