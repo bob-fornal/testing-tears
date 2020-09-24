@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/highlight/styles/atom-one-dark.css" />
+    <script src="/highlight/highlight.pack.js"></script>
+
+    <link rel="stylesheet" href="/styles/visualization.css" />
+  </head>
+
+  <body>
+    <div class="outer-wrapper"></div>
+
+    <script src="/js/_visualization.js"></script>
+    <script>
+        const structure = {
+        title: 'Web Worker',
+        runner: 'web-worker.html',
+        suite: [
+          { title: 'Web Worker Code',
+            code: 'web-worker',
+            tests: [
+              'web-worker--done',
+              'web-worker--clock'
+            ]
+          }
+        ]
+      };
+      codeVisualization.init(structure);
+    </script>
+  </body>
+</html>
