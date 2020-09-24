@@ -1,5 +1,5 @@
 
-const code = {};
+let code = {};
 
 code.handleLater = (fn, time = 10) => {
   setTimeout(fn, time);

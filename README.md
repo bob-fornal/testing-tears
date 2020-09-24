@@ -10,7 +10,7 @@ This presentation is for testing JavaScript's Asynchronous Activity.
     - [x] False Positive Code
     - [x] setTimeout Code
     - [x] setInterval Code
-    - [ ] Callback Code
+    - [x] Callback Code
     - [ ] ES2015 Promise Code
     - [ ] Event Listener Code
     - [ ] Web Worker Code

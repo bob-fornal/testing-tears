@@ -1,5 +1,5 @@
 
-const code = {
+let code = {
   variable: false
 };
 

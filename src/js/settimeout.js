@@ -1,9 +1,7 @@
 
-const code = {
+let code = {
   variable: false
 };
-
-code.variable = false;
 
 /* done and clock */
 code.testable_1 = () => {

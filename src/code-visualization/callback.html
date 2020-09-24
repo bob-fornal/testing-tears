@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/highlight/styles/atom-one-dark.css" />
+    <script src="/highlight/highlight.pack.js"></script>
+
+    <link rel="stylesheet" href="/styles/visualization.css" />
+  </head>
+
+  <body>
+    <div class="outer-wrapper"></div>
+
+    <script src="/js/_visualization.js"></script>
+    <script>
+        const structure = {
+        title: 'Callbacks',
+        runner: 'callback.html',
+        suite: [
+          { title: 'Callback Code',
+            code: 'callback',
+            tests: [
+              'callback--synchronous',
+              'callback--done',
+              'callback--clock',
+              'callback--async-await'
+            ]
+          }
+        ]
+      };
+      codeVisualization.init(structure);
+    </script>
+  </body>
+</html>
