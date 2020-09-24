@@ -3,6 +3,10 @@ let code = {
   variable: false
 };
 
+code.init = () => {
+  code.variable = false;
+};
+
 /* done and clock */
 code.testable_1 = () => {
   setTimeout(function() {

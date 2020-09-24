@@ -1,15 +1,15 @@
 
-describe('setInterval - done', () => {
+describe('promise - done', () => {
   beforeEach(() => {
     code.init();
   });
 
   it('expects variable to become true', (done) => {
-    code.testable_1();
+    code.promise();
 
-    setTimeout(function() {
+    setTimeout(() => {
       expect(code.variable).toEqual(true);
       done();
-    }, 1000);
+    }, 50);
   });
 });

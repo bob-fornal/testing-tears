@@ -1,14 +1,14 @@
 
-describe('setInterval - clock', () => {
+describe('promise - clock', () => {
   beforeEach(() => {
     code.init();
   });
 
-  it('expects variable to become true', function() {
+  it('expects variable to become true', () => {
     jasmine.clock().install();
   
-    code.testable_1();
-    jasmine.clock().tick(1000);
+    code.promise();
+    jasmine.clock().tick(50);
   
     expect(code.variable).toEqual(true);
     jasmine.clock().uninstall();

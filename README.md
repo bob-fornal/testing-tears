@@ -11,7 +11,7 @@ This presentation is for testing JavaScript's Asynchronous Activity.
     - [x] setTimeout Code
     - [x] setInterval Code
     - [x] Callback Code
-    - [ ] ES2015 Promise Code
+    - [x] ES2015 Promise Code
     - [ ] Event Listener Code
     - [ ] Web Worker Code
     - [x] **PARTIAL**: ES2017 Async / Await Code

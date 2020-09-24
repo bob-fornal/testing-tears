@@ -1,5 +1,9 @@
 
 describe('settimeout - clock', () => {
+  beforeEach(() => {
+    code.init();
+  });
+
   it('expects variable to become true', function() {
     jasmine.clock().install();
   

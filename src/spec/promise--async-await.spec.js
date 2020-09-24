@@ -1,11 +1,11 @@
 
-describe('settimeout - async / await', () => {
+describe('promise - async / await', () => {
   beforeEach(() => {
     code.init();
   });
 
   it('expects variable to become true', async () => {
-    await code.testable_3();
+    await code.promise();
     expect(code.variable).toEqual(true);
   });
 });

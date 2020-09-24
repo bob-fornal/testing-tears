@@ -5,6 +5,12 @@ let code = {
   interval: null
 };
 
+code.init = () => {
+  code.variable = false;
+  code.counter = 1;
+  code.interval = null;
+};
+
 /* done and clock */
 code.testable_1 = () => {
   code.counter = 1;
