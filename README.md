@@ -4,7 +4,7 @@ This presentation is for testing JavaScript's Asynchronous Activity.
 
 ### General Notes
 
-- [ ] Generate Jasmine test results for all scenarios.
+- [x] Generate Jasmine test results for all scenarios.
 
     - [x] Concept Code
     - [x] False Positive Code
