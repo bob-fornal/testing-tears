@@ -25,7 +25,9 @@ code.testable_2 = () => {
 
 /* Async / Await */
 code.sleep = (time) => {
-  return new Promise(resolve => setTimeout(resolve, time));
+  return new Promise(resolve => {
+    setTimeout(resolve, time);
+  });
 };
 
 code.testable_3 = async () => {
