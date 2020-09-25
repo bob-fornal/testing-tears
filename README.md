@@ -18,6 +18,7 @@ This presentation is for testing JavaScript's Asynchronous Activity.
 
 - [ ] Build a presenter similar to what the original Async Talk does:
 
+    - [ ] Presenter with "comments" (markdown?)
     - [ ] "Test-Result Display" tab
     - [ ] "Code View" tab
 
